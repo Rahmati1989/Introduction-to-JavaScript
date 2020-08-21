@@ -129,7 +129,7 @@ function getRandomInt(max) {
 function km_to_miles(km){
     return km*0.621
 }
-console.log(km_to_miles(1))
+console.log(km_to_miles(1), "Miles");
 
 
 
