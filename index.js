@@ -37,8 +37,10 @@ multiply(5,4);
 /************************************************************** Task 2 **************************************************************/
 //Age in Dog years
 //write a function that takes your age and returns it to you in dog years - they say that 1 human year is equal to seven dog years 
-
-
+function myAge(age){
+    return age * 7;
+}
+console.log(myAge(31) + " This Is Dog Year");
 
 
 
@@ -61,7 +63,9 @@ multiply(5,4);
 // when you are finished invoke your function with the weight of 15 lbs and the age of 1 year - if your calculations are correct your result should be 0.44999999999999996
   
 
+function dog_feeder(weight,age){
 
+}
 
 
 /************************************************************** Task 4 **************************************************************/
@@ -78,12 +82,19 @@ multiply(5,4);
 //Metric Converter
 //a. KM to Miles - should take the number of kilometers and convert it to the equal number of miles
 
-
+function km_to_miles(km){
+    return km*0.621
+}
+console.log(km_to_miles(1))
 
 
 
 //b. Feet to CM - should take the number of feet and convert it to the equal number of centimeters
   
+function feet_to_cm(feet){
+    return feet*30.48;
+}
+console.log(Math.round(feet_to_cm(3)));
 
 
 
