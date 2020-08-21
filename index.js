@@ -103,7 +103,22 @@ console.log(dogFeeder(15,1));
 // it should return you won or you lost based on the rules of the game (you may need to look up the rules if you have not played before)
 // use math.random to determine the computers choice 
 // hint while you can complete this with only conditionals based on strings it may help to equate choice to a number 
-
+function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+  }
+  
+  function rockPS(guess){
+      let outcome = getRandomInt(3);
+      let result = "Not played";
+      if(outcome === guess){
+           result = "You won rock paper sissors";
+          return result
+      }else{
+        result = "You lost rock paper sissors";
+        return result;
+      }
+  }
+  console.log(rockPS(0));
   
   
 
